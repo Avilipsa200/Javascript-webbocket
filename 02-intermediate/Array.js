@@ -18,18 +18,18 @@ arr.pop();
 console.log(arr);
 arr.pop(2);
 console.log(arr)
-arr.unshift(0)
+arr.unshift(0)//It adds one or more elements in the beginning of the given array.
 console.log(arr)
-arr.shift();
+arr.shift();//	It removes and returns the first element of an array.
 console.log(arr)
-console.log(arr.includes(4))
-console.log(arr.indexOf(4))
+console.log(arr.includes(4))//The JavaScript array includes() method checks whether the given array contains the specified element. It returns true if an array contains the element, otherwise false.
+console.log(arr.indexOf(4))//It searches the specified element in the given array and returns the index of the first match.
 console.log(arr)
 // join() method it basically works on converting a array to string
 const demoarr=arr.join();
 console.log(demoarr)
 console.log(typeof demoarr)
-const arr1=arr.slice(1,3);
+const arr1=arr.slice(1,3);//It returns a new array containing the copy of the part of the given array.
 console.log(arr1)
 console.log("B",arr)
 const arr2=arr.splice(1,3)
